@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background:rgb(37, 1, 1);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+Header{
+  background-color:rgb(37, 1, 1);
+}
+
+.imageContainer{
+
+  background-color:rgb(37, 1, 1) ;
+}
+
+.h2{
+  top: 1000px;
+  position: 1000px;
+}
+
+h1 {
+  margin-top: 10%;
+}
